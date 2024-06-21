@@ -165,3 +165,4 @@ it('should add and delete a comment', () => {
     // Assert comments count
     cy.dataCy('all-comments').find('[data-cy="comment-box"]').should('have.length', 2);
 });
+//fin de code
